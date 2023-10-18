@@ -43,7 +43,7 @@ make build
 
 1. Build image.
 ```
-docker build -f ./build/Dockerfile -t goingon .
+docker build -f ./docker/Dockerfile -t goingon .
 ```
 
 2. Run container with passed environment variables.
