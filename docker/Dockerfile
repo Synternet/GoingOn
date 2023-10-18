@@ -22,7 +22,7 @@ RUN apk add --update --no-cache \
 
 WORKDIR /home/app
 COPY --from=build /home/src/goingon .
-COPY --from=build /home/src/build/entrypoint.sh /home/app
+COPY --from=build /home/src/docker/entrypoint.sh /home/app
 RUN chmod +x /home/app/entrypoint.sh
 
 ENTRYPOINT ["/home/app/entrypoint.sh"]
