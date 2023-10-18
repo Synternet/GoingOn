@@ -52,7 +52,7 @@ docker run -it --rm --env-file=.env going-on
 ```
 
 Note: [Flags](#flags) can be passed as environment variables.
-Environment variables are all caps flags separated with underscore. See `./build/entrypoint.sh`.
+Environment variables are all caps flags separated with underscore. See `./docker/entrypoint.sh`.
 
 ## Contributing
 
