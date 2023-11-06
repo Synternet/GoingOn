@@ -35,7 +35,7 @@ make build
 | telegram-chat-id              | Telegram chat ID                                                  |
 | telegram-bot-token            | Telegram bot token                                                |
 
-- `nats-*`. NATS. `nats-sub-nkey` must be provided. Uses Syntropy Data Layer to get Ethereum transactions event log. See [Data Layer Quick Start](https://docs.syntropynet.com/docs/data-layer-quick-start) to learn more.
+- `nats-*`. NATS. `nats-sub-nkey` must be provided. Uses Syntropy Data Layer to get Ethereum transactions event log. See [Data Layer Quick Start](https://docs.syntropynet.com/build/) to learn more.
 - `pool-*`. Uniswap Pool. Default flags is set to [Uniswap ETH-USDT Pool](https://v2.info.uniswap.org/pair/0x0d4a11d5eeaac28ec3f61d100daf4d40471f1852).
 - `telegram-*`. Telegram. Flags must be provided. See [Telegram From BotFather to 'Hello World'](https://core.telegram.org/bots/tutorial) to learn more.
 
