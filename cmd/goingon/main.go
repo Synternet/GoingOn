@@ -7,8 +7,9 @@ import (
 	"math/big"
 	"time"
 
-	"goingon/internal/service"
-	svcnats "goingon/pkg/nats"
+	svcnats "github.com/synternet/goingon/pkg/nats"
+
+	"github.com/synternet/goingon/internal/service"
 
 	nats "github.com/nats-io/nats.go"
 )
@@ -18,7 +19,7 @@ func main() {
 	flagUserCredsSeedSub := flag.String("nats-sub-nkey", "", "NATS User credentials NKey string")
 	flagNatsReconnectWait := flag.Duration("nats-reconnect-wait", 10*time.Second, "NATS reconnect wait duration")
 	flagNatsMaxReconnects := flag.Int("nats-max-reconnect", 500, "NATS max reconnect attempts count")
-	flagNatsTxLogEventsStreamSubject := flag.String("nats-event-log-stream-subject", "syntropy.ethereum.log-event", "NATS event log stream subject")
+	flagNatsTxLogEventsStreamSubject := flag.String("nats-event-log-stream-subject", "synternet.ethereum.log-event", "NATS event log stream subject")
 	flagPoolContractAddress := flag.String("pool-contract-address", "0x0d4a11d5eeaac28ec3f61d100daf4d40471f1852", "Pool contract address")
 	flagPoolToken0Ticker := flag.String("pool-token0-ticker", "ETH", "Ticker of first pool token")
 	flagPoolToken0DecimalsNum := flag.Int64("pool-token0-decimals", 18, "Decimals of first pool token")

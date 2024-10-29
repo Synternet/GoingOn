@@ -1,4 +1,4 @@
-module goingon
+module github.com/synternet/goingon
 
 go 1.21
 

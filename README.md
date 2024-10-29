@@ -35,7 +35,7 @@ make build
 | telegram-chat-id              | Telegram chat ID                                                  |
 | telegram-bot-token            | Telegram bot token                                                |
 
-- `nats-*`. NATS. `nats-sub-nkey` must be provided. Uses Syntropy Data Layer to get Ethereum transactions event log. See [Data Layer Quick Start](https://docs.syntropynet.com/build/) to learn more.
+- `nats-*`. NATS. `nats-sub-nkey` must be provided. Uses Synternet Data Layer to get Ethereum transactions event log. See [Data Layer Quick Start](https://docs.synternet.com/build/) to learn more.
 - `pool-*`. Uniswap Pool. Default flags is set to [Uniswap ETH-USDT Pool](https://v2.info.uniswap.org/pair/0x0d4a11d5eeaac28ec3f61d100daf4d40471f1852).
 - `telegram-*`. Telegram. Flags must be provided. See [Telegram From BotFather to 'Hello World'](https://core.telegram.org/bots/tutorial) to learn more.
 
@@ -48,7 +48,7 @@ docker build -f ./docker/Dockerfile -t goingon .
 
 2. Run container with passed environment variables.
 ```
-docker run -it --rm --env-file=.env going-on
+docker run -it --rm --env-file=.env goingon
 ```
 
 Note: [Flags](#flags) can be passed as environment variables.
@@ -58,10 +58,10 @@ Environment variables are all caps flags separated with underscore. See `./docke
 
 We welcome contributions from the community. Whether it's a bug report, a new feature, or a code fix, your input is valued and appreciated.
 
-## Syntropy
+## Synternet
 
 If you have any questions, ideas, or simply want to connect with us, we encourage you to reach out through any of the following channels:
 
-- **Discord**: Join our vibrant community on Discord at [https://discord.com/invite/jqZur5S3KZ](https://discord.com/invite/jqZur5S3KZ). Engage in discussions, seek assistance, and collaborate with like-minded individuals.
-- **Telegram**: Connect with us on Telegram at [https://t.me/SyntropyNet](https://t.me/SyntropyNet). Stay updated with the latest news, announcements, and interact with our team members and community.
-- **Email**: If you prefer email communication, feel free to reach out to us at devrel@syntropynet.com. We're here to address your inquiries, provide support, and explore collaboration opportunities.
+- **Discord**: Join our vibrant community on Discord at [https://discord.gg/synternet](https://discord.gg/synternet). Engage in discussions, seek assistance, and collaborate with like-minded individuals.
+- **Telegram**: Connect with us on Telegram at [https://t.me/Synternet](https://t.me/Synternet). Stay updated with the latest news, announcements, and interact with our team members and community.
+- **Email**: If you prefer email communication, feel free to reach out to us at info@synternet.com. We're here to address your inquiries, provide support, and explore collaboration opportunities.

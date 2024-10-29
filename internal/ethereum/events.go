@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	types "goingon/pkg/types"
+	types "github.com/synternet/goingon/pkg/types"
 
 	"github.com/ethereum/go-ethereum/common"
 	"golang.org/x/crypto/sha3"

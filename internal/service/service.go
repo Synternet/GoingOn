@@ -14,9 +14,10 @@ import (
 	"strings"
 	"syscall"
 
-	"goingon/internal/ethereum"
-	svcn "goingon/pkg/nats"
-	types "goingon/pkg/types"
+	svcn "github.com/synternet/goingon/pkg/nats"
+	types "github.com/synternet/goingon/pkg/types"
+
+	"github.com/synternet/goingon/internal/ethereum"
 
 	"github.com/ethereum/go-ethereum/accounts/abi"
 	"github.com/ethereum/go-ethereum/common"
